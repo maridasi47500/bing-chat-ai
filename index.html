@@ -1,0 +1,11 @@
+<button id="job-btn">Job</button>
+<button id="art-btn">Art</button>
+
+<script>
+document.getElementById('job-btn').onclick = function() {
+    fetch('/run_script?type=job');
+};
+document.getElementById('art-btn').onclick = function() {
+    fetch('/run_script?type=art');
+};
+</script>
