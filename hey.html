@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cartes Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+   <style>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Instagram Style Card</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .instagram-card {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            max-width: 500px;
+            padding: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin: auto;
+            background: #fff;
+        }
+        .instagram-header {
+            display: flex;
+            align-items: center;
+        }
+        .instagram-header img {
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+        .instagram-actions {
+            display: flex;
+            justify-content: space-between;
+            font-size: 16px;
+            margin-top: 8px;
+        }
+        .instagram-actions a {
+            text-decoration: none;
+            color: #E1306C;
+            font-weight: bold;
+        }
+        .instagram-actions a:hover {
+            text-decoration: underline;
+        }
+        .twitter-card {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            max-width: 500px;
+            padding: 15px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin: auto;
+        }
+        .twitter-header {
+            display: flex;
+            align-items: center;
+        }
+        .twitter-header img {
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+        .twitter-actions {
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+            color: #1DA1F2;
+        }
+        .twitter-actions a {
+            text-decoration: none;
+            color: #1DA1F2;
+        }
+        .twitter-actions a:hover {
+            text-decoration: underline;
+        }
+        .facebook-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 15px;
+            max-width: 500px;
+            margin: auto;
+        }
+        .facebook-header {
+            display: flex;
+            align-items: center;
+        }
+        .facebook-header img {
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+        .facebook-actions {
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+            color: #65676b;
+        }
+        .facebook-actions a {
+            text-decoration: none;
+            color: #65676b;
+        }
+        .facebook-actions a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-4">
+    <h1 class="text-center">C'est un plaisir de te voir</h1>
+    <h1 class="text-center">Bienvenue ! Explore différents thèmes</h1>
+
+    <div class="row mt-4">
+        <!-- Première carte à gauche -->
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img src="forest-path.jpg" class="card-img-top" alt="Illustration">
+                <div class="card-body">
+                    <h5 class="card-title">Une rangée d’arbres le long d’une colline</h5>
+                    <p class="card-text">Une belle vue apaisante de la nature.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Deux cartes empilées à droite -->
+        <div class="col-md-8">
+            <div class="d-flex flex-column">
+                <!-- Carte avec image à gauche et texte à droite -->
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="telephone-poles.jpg" class="img-fluid rounded-start" alt="Poteaux téléphoniques">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">S'entraîner à une conversation difficile</h5>
+                                <p class="card-text">Astuces pour mieux préparer et aborder des discussions importantes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carte avec image à droite et texte à gauche -->
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Kourou - Météo</h5>
+                                <p class="card-text">26° - Globalement nuageux 🌥️<br>🌡️ Haute : 29° | Basse : 25°</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="weather.jpg" class="img-fluid rounded-end" alt="Météo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2 class="text-center">thèmes </h2>
+
+    <div class="row mt-4">
+        <!-- Première carte à gauche -->
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img src="forest-path.jpg" class="card-img-top" alt="Illustration">
+                <div class="card-body">
+                    <h5 class="card-title">Une rangée d’arbres le long d’une colline</h5>
+                    <p class="card-text">Une belle vue apaisante de la nature.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Deux cartes empilées à droite -->
+        <div class="col-md-8">
+            <div class="d-flex flex-column">
+                <!-- Carte avec image à gauche et texte à droite -->
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="telephone-poles.jpg" class="img-fluid rounded-start" alt="Poteaux téléphoniques">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">S'entraîner à une conversation difficile</h5>
+                                <p class="card-text">Astuces pour mieux préparer et aborder des discussions importantes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carte avec image à droite et texte à gauche -->
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Kourou - Météo</h5>
+                                <p class="card-text">26° - Globalement nuageux 🌥️<br>🌡️ Haute : 29° | Basse : 25°</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="weather.jpg" class="img-fluid rounded-end" alt="Météo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Section Sports -->
+    <h2 class="text-center mt-4">Sports</h2>
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img src="football.jpg" class="card-img-top" alt="Football">
+                <div class="card-body">
+                    <h5 class="card-title">Football</h5>
+                    <p class="card-text">Le sport le plus populaire au monde, parfait pour l'endurance et l'esprit d'équipe.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img src="basketball.jpg" class="card-img-top" alt="Basketball">
+                <div class="card-body">
+                    <h5 class="card-title">Basketball</h5>
+                    <p class="card-text">Un sport rapide qui améliore la coordination et l'agilité.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img src="tennis.jpg" class="card-img-top" alt="Tennis">
+                <div class="card-body">
+                    <h5 class="card-title">Tennis</h5>
+                    <p class="card-text">Un excellent moyen de développer la vitesse et la stratégie sur le court.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section Arts -->
+    <h2 class="text-center mt-4">Arts</h2>
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <div class="card text-center">
+                <img src="music.jpg" class="card-img-top" alt="Musique">
+                <div class="card-body">
+                    <h5 class="card-title">Musique</h5>
+                    <p class="card-text">Un art universel qui permet d'exprimer des émotions et de créer des souvenirs.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card text-center">
+                <img src="dance.jpg" class="card-img-top" alt="Danse">
+                <div class="card-body">
+                    <h5 class="card-title">Danse</h5>
+                    <p class="card-text">Un moyen dynamique de s'exprimer à travers le mouvement et le rythme.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section Job -->
+    <h2 class="text-center mt-4">Job</h2>
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <div class="card text-center">
+                <img src="waiter.jpg" class="card-img-top" alt="Serveur">
+                <div class="card-body">
+                    <h5 class="card-title">Serveur</h5>
+                    <p class="card-text">Un travail dynamique qui développe le service client et la gestion du temps.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card text-center">
+                <img src="builder.jpg" class="card-img-top" alt="Bâtiment">
+                <div class="card-body">
+                    <h5 class="card-title">Bâtiment</h5>
+                    <p class="card-text">Un métier essentiel pour la construction et l'aménagement urbain.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="container mt-5">
+    <div class="facebook-card">
+        <div class="facebook-header">
+            <img src="profile.jpg" alt="Photo de profil">
+            <div>
+                <h5 class="card-title">MonPseudo</h5>
+                <p class="text-muted" style="margin: 0; font-size: 12px;">Il y a 2 heures · 🌍</p>
+            </div>
+        </div>
+        <p class="card-text mt-2">Expérience en tant que serveur, une vraie aventure ! 🍽️ #ServeurLife</p>
+        <div class="facebook-actions mt-3">
+            <a href="#">👍 J'aime</a>
+            <a href="#">💬 Commenter</a>
+            <a href="#">↪️ Partager</a>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <div class="twitter-card">
+        <div class="twitter-header">
+            <img src="profile.jpg" alt="Photo de profil">
+            <div>
+                <h5 class="card-title">@MonPseudo</h5>
+                <p class="text-muted" style="margin: 0; font-size: 12px;">2h · Twitter Web App</p>
+            </div>
+        </div>
+        <p class="card-text mt-2">Je m'entraîne au foot chaque semaine. 🔥⚽ #FootballLife</p>
+        <div class="twitter-actions mt-3">
+            <a href="#">💬 Commenter</a>
+            <a href="#">🔁 Retweeter</a>
+            <a href="#">❤️ Aimer</a>
+        </div>
+    </div>
+</div>
+<div class="container mt-5">
+    <div class="instagram-card">
+        <div class="instagram-header">
+            <img src="profile.jpg" alt="Photo de profil">
+            <div>
+                <h5 class="card-title">MonPseudo</h5>
+                <p class="text-muted" style="margin: 0; font-size: 12px;">Il y a 3 heures</p>
+            </div>
+        </div>
+        <img src="dance.jpg" class="img-fluid mt-2" alt="Danse">
+        <div class="instagram-actions mt-2">
+            <a href="#">❤️ J'aime</a>
+            <a href="#">💬 Commenter</a>
+            <a href="#">📤 Partager</a>
+        </div>
+        <p class="card-text mt-2"><strong>MonPseudo</strong> Expression à travers le mouvement 💃✨ #Danse</p>
+    </div>
+</div>
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+</body>
+</html>
+
